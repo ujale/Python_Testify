@@ -157,11 +157,41 @@ while number > 0:
     print("while: Number:", number)
     number -= 1
 
-print("\n else statement\n")
+print("\n else statement and continue\n")
 
 number = 10
 for i in range(number):
     if i == 3:
-        print("for-else: Number", i)
-    else:
-        print("end of loop")
+        continue
+    print("for: Number", i)
+else:
+    print("end of loop")
+
+while number > 0:
+    if number == 3:
+        number -= 1
+        continue
+    print("while: Number:", number)
+    number -= 1
+else:
+    print("end of loop")
+
+
+print("\n else statement and break\n")
+
+number = 10
+for i in range(number):
+    if i == 3:
+        break
+    print("for: Number", i)
+else:
+    print("end of loop")
+
+while number > 0:
+    if number == 3:
+        number -= 1
+        break
+    print("while: Number:", number)
+    number -= 1
+else:
+    print("end of loop")

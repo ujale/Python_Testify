@@ -1,3 +1,3 @@
-number = 11
+number = 10
 for i in range(number):
-    print("Number:", i)
+    print("Hello World!")

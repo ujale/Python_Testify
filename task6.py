@@ -1,6 +1,6 @@
 number1 = 30
 number2 = 15
-if number1 >50 and number2 <100:
+if number1 > 50 and number2 < 100:
     print("Evaluation is True")
 else:
     print("Evaluation is false")

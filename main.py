@@ -130,7 +130,7 @@ for i in range(number):
         break
     print("for: Number", i)
 
-print("\nanother method with the variable directly & not its index")
+print("\nanother method with the variable directly & not its index\n")
 for number in range(number):
     if number == 3:
         break

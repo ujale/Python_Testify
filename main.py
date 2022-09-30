@@ -143,7 +143,7 @@ while number > 0:
     number -= 1
 
 
-print("\ncontinue")
+print("\ncontinue\n")
 number = 5
 for i in range(number):
     if i == 3:
